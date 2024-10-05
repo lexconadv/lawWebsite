@@ -16,7 +16,9 @@
                                 </div>
                             </div>
                             <div class="footer-number">
-                                <h4><span>+880 </span>1841340819</h4>
+                                <h4><span>+880 </span>1841-340819</h4>
+                                <h4><span>+88 </span>02-222228449</h4>
+
                                 <p>adv.badrul@gmail.com</p>
                             </div>
                         </div>

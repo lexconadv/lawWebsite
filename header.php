@@ -42,12 +42,13 @@
                 <div class="row align-items-center">
                     <!-- Logo -->
                     <div class="col-xl-2 col-lg-2 col-md-1">
-                        <div class="logo">
-                            <a href="index.html"><img width="200px" height="200px" src="assets/img/logo/IMG-20240929-WA0003-removebg-preview (1).png" alt=""></a>
+                        <div class="logo" width="150px" height="150px">
+                            <a href="index.html"><img width="100%" src="assets/img/logo/IMG-20240929-WA0003-removebg-preview (1).png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-xl-10 col-lg-10 col-md-10">
                         <div class="menu-main d-flex align-items-center justify-content-end">
+                            
                             <!-- Main-menu -->
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav> 

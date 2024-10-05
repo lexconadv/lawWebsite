@@ -2050,11 +2050,12 @@ to {
     color: #3957ff;
 }
 .header-area .main-header {
-    padding: 0px 130px;
+    padding: 0px 50px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     .header-area .main-header {
     padding: 0px 30px;
+    
 }
 }@media only screen and (min-width: 992px) and (max-width: 1199px) {
     .header-area .main-header {
