@@ -81,7 +81,7 @@
                                             <li><a href="ourTeam.php">Our Team </a></li>
                                             <li><a href="./services.php">Services</a></li>
                                             <li><a href="./location.php">Location</a></li>
-                                            <li><a href="cases.php">Career</a></li>
+                                            <li><a href="./career.php">Career</a></li>
                                             <li><a href="blog.php">Blog</a></li>
                                             <li>
                                                     <a href="./index.php?#contact-form" class="header-btn">Book Now</a>
@@ -98,10 +98,10 @@
                                             
                                             <li><a href="blog.html">Property Laws</a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_details.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Element</a></li>
-                                                    <li><a href="cases_details.html">Case Details </a></li>
+                                                    <li><a href="blog.php">Blog</a></li>
+                                                    <li><a href="./Sirvice_details.php">Blog Details</a></li>
+                                                    <li><a href="elements.php">Element</a></li>
+                                                    <li><a href="cases_details.php">Case Details </a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="blog.html">Civil & Criminal Litigation</a>
