@@ -16,7 +16,7 @@ include("./header.php");
                                 <p data-animation="fadeInLeft" data-delay=".9s">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat is aute irure.</p>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn" data-animation="fadeInLeft" data-delay="1.1s">
-                                    <a href="about.html" class="btn hero-btn">Learn About Us</a>
+                                    <a href="about.php" class="btn hero-btn">Learn About Us</a>
                                 </div>
                             </div>
                         </div>
@@ -89,37 +89,25 @@ include("./header.php");
                         <div class="cat-cap">
                             <h5><a href="services.html">Vehicle Accident </a></h5>
                             <p>Sorem hpsum folor sixdsft amhtget, consectetur adipiscing eliht, sed do eiusmod tempor incidi.</p>
-                            <a href="services.html" class="read-more1">Read More ></a>
+                            <a href="services.php" class="read-more1">Read More ></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--? About Area Start-->
-    <div class="about-area fix">
-        <!--Right Contents  -->
-        <div class="about-img"></div>
-        <!-- left Contents -->
-        <div class="about-details">
-            <div class="right-caption">
-                <!-- Section Tittle -->
-                <div class="section-tittle section-tittle2 mb-50">
-                    <span>About Our Law agency</span>
-                    <h2>We are commited for<br> better service</h2>
-                </div>
-                <div class="about-more">
-                    <p class="pera-top">Mollit anim laborum duis adseu dolor iuyn voluptcate velit ess <br>cillum dolore egru lofrre dsu.</p>
-                    <p class="mb-65 pera-bottom">Mollit anim laborum.Dvcuis aute serunt  iruxvfg dhjkolohr indd re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt moll.</p>
-                    <a href="about.html" class="btn post-btn">Learn About Us</a>
-                </div>
-            </div>
-        </div>
 
-    </div>
-    <!-- About Area End-->
+
+
+   <?php
+   include("./aboutLawaaaagency.php");
+
+   ?>
+
+
+
     <!-- Contact form Start -->
-    <div class="contact-form bg-height pb-top" data-background="assets/img/gallery/section_bg05.png">
+    <div class="contact-form bg-height pb-top" id="contact-form"data-background="assets/img/gallery/section_bg05.png">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-8">
@@ -219,7 +207,7 @@ include("./header.php");
                                     </div>
                                     <div class="services-caption">
                                     <span>Car Accident Law</span>
-                                    <p><a href="cases_details.html">Within the construction industry as their overdraft</a></p>
+                                    <p><a href="cases_details.php">Within the construction industry as their overdraft</a></p>
                                 </div>
                             </div>
                         </div>
@@ -252,7 +240,7 @@ include("./header.php");
                                     </div>
                                     <div class="services-caption">
                                     <span>Car Accident Law</span>
-                                   <p><a href="cases_details.html">Within the construction industry as their overdraft</a></p>
+                                   <p><a href="cases_details.php">Within the construction industry as their overdraft</a></p>
                                 </div>
                             </div>
                         </div>
@@ -268,7 +256,7 @@ include("./header.php");
                                     </div>
                                     <div class="services-caption">
                                     <span>Car Accident Law</span>
-                                   <p><a href="cases_details.html">Within the construction industry as their overdraft</a></p>
+                                   <p><a href="cases_details.php">Within the construction industry as their overdraft</a></p>
                                 </div>
                             </div>
                         </div>
@@ -279,7 +267,7 @@ include("./header.php");
                                     </div>
                                     <div class="services-caption">
                                     <span>Car Accident Law</span>
-                                   <p><a href="cases_details.html">Construction industry as their over draft for critical law</a></p>
+                                   <p><a href="cases_details.php">Construction industry as their over draft for critical law</a></p>
                                 </div>
                             </div>
                         </div>
@@ -290,7 +278,7 @@ include("./header.php");
                                     </div>
                                     <div class="services-caption">
                                     <span>Car Accident Law</span>
-                                   <p><a href="cases_details.html">Retail banks wake up to digital lending this year</a></p>
+                                   <p><a href="cases_details.php">Retail banks wake up to digital lending this year</a></p>
                                 </div>
                             </div>
                         </div>
@@ -301,7 +289,7 @@ include("./header.php");
                                     </div>
                                     <div class="services-caption">
                                     <span>Car Accident Law</span>
-                                   <p><a href="cases_details.html">Within the construction industry as their overdraft</a></p>
+                                   <p><a href="cases_details.php">Within the construction industry as their overdraft</a></p>
                                 </div>
                             </div>
                         </div>
@@ -317,7 +305,7 @@ include("./header.php");
                                     </div>
                                     <div class="services-caption">
                                     <span>Car Accident Law</span>
-                                   <p><a href="cases_details.html">Within the construction industry as their overdraft</a></p>
+                                   <p><a href="cases_details.php">Within the construction industry as their overdraft</a></p>
                                 </div>
                             </div>
                         </div>
@@ -328,7 +316,7 @@ include("./header.php");
                                     </div>
                                     <div class="services-caption">
                                     <span>Car Accident Law</span>
-                                   <p><a href="cases_details.html">Construction industry as their over draft for critical law</a></p>
+                                   <p><a href="cases_details.php">Construction industry as their over draft for critical law</a></p>
                                 </div>
                             </div>
                         </div>
@@ -339,7 +327,7 @@ include("./header.php");
                                     </div>
                                     <div class="services-caption">
                                     <span>Car Accident Law</span>
-                                   <p><a href="cases_details.html">Retail banks wake up to digital lending this year</a></p>
+                                   <p><a href="cases_details.php">Retail banks wake up to digital lending this year</a></p>
                                 </div>
                             </div>
                         </div>
@@ -350,7 +338,7 @@ include("./header.php");
                                     </div>
                                     <div class="services-caption">
                                     <span>Car Accident Law</span>
-                                   <p><a href="cases_details.html">Within the construction industry as their overdraft</a></p>
+                                   <p><a href="cases_details.php">Within the construction industry as their overdraft</a></p>
                                 </div>
                             </div>
                         </div>
@@ -378,55 +366,7 @@ include("./header.php");
     </section>
     <!-- Want To work End -->
     <!-- Team Start -->
-    <div class="team-area section-padding30">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5 col-lg-6 col-md-8">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle mb-70">
-                        <span>Our lawyers </span>
-                        <h2>Meet Our Dedicated Team Members.</h2>
-                    </div> 
-                </div>
-            </div>
-            <div class="row">
-                <!-- single Tem -->
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/team2.png" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">Ethan Welch</a></h3>
-                            <span>Chir Lawyer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/team3.png" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">Trevor Stanley</a></h3>
-                            <span>Junior Lawyer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/team1.png" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="#">Allen Guzman</a></h3>
-                            <span>Senior Lawyer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include("./ourLawyer.php");?>
     <!-- Team End -->
     <!--? Testimonial Start -->
     <div class="testimonial-area testimonial-padding" data-background="assets/img/gallery/section_bg04.png">
@@ -492,6 +432,9 @@ include("./header.php");
         </div>
     </div>
     <!-- Testimonial End -->
+
+
+
     <!-- Blog Area Start -->
     <div class="home-blog-area section-padding30">
         <div class="container">

@@ -81,10 +81,10 @@
                                             <li><a href="ourTeam.php">Our Team </a></li>
                                             <li><a href="./services.php">Services</a></li>
                                             <li><a href="./location.php">Location</a></li>
-                                            <li><a href="cases.html">Career</a></li>
-                                            <li><a href="blog.html">Blog</a></li>
+                                            <li><a href="cases.php">Career</a></li>
+                                            <li><a href="blog.php">Blog</a></li>
                                             <li>
-                                                    <a href="#" class="header-btn">Book Now</a>
+                                                    <a href="./index.php?#contact-form" class="header-btn">Book Now</a>
                                             </li>
                                             <li>
                                                

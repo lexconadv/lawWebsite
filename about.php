@@ -45,77 +45,10 @@ include("./header.php");
         </div>
         </section>
          <!--? About Area Start-->
-        <div class="about-area fix">
-            <!--Right Contents  -->
-            <div class="about-img"></div>
-            <!-- left Contents -->
-            <div class="about-details">
-                <div class="right-caption">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle section-tittle2 mb-50">
-                        <span>About Our Law agency</span>
-                        <h2>We are commited for<br> better service</h2>
-                    </div>
-                    <div class="about-more">
-                        <p class="pera-top">Mollit anim laborum duis adseu dolor iuyn voluptcate velit ess <br>cillum dolore egru lofrre dsu.</p>
-                        <p class="mb-65 pera-bottom">Mollit anim laborum.Dvcuis aute serunt  iruxvfg dhjkolohr indd re voluptate velit esscillumlore eu quife nrulla parihatur. Excghcepteur sfwsignjnt occa cupidatat non aute iruxvfg dhjinulpadeserunt moll.</p>
-                        <a href="about.html" class="btn post-btn">Learn About Us</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        <?php include("./aboutLawaaaagency.php");?>
         <!-- About Area End-->
         <!-- Team Start -->
-        <div class="team-area section-padding30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-5 col-lg-6 col-md-10">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle mb-70">
-                            <span>Our lawyers </span>
-                            <h2>Meet Our Dedicated Team Members.</h2>
-                        </div> 
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- single Tem -->
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="assets/img/gallery/team2.png" alt="">
-                            </div>
-                            <div class="team-caption">
-                                <h3><a href="#">Ethan Welch</a></h3>
-                                <span>Chir Lawyer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="assets/img/gallery/team3.png" alt="">
-                            </div>
-                            <div class="team-caption">
-                                <h3><a href="#">Trevor Stanley</a></h3>
-                                <span>Junior Lawyer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="assets/img/gallery/team1.png" alt="">
-                            </div>
-                            <div class="team-caption">
-                                <h3><a href="#">Allen Guzman</a></h3>
-                                <span>Senior Lawyer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include("./ourLawyer.php");?>
         <!-- Team End -->
         <!--? Testimonial Start -->
         <div class="testimonial-area testimonial-padding" data-background="assets/img/gallery/section_bg04.png">
