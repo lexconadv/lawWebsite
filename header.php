@@ -48,10 +48,32 @@
                     </div>
                     <div class="col-xl-10 col-lg-10 col-md-10">
                         <div class="menu-main d-flex align-items-center justify-content-end">
-                            
                             <!-- Main-menu -->
                             <div class="main-menu f-right d-none d-lg-block">
                                 <nav> 
+                                      <div class="social">
+                                         <ul id="navigation" style="
+                                         display:flex;
+                                         justify-content: space-between; 
+                                         flex-direction: row-reverse;">
+                                         <li style=" display:flex;">
+                                            <a href="#" style=" color:#1DA1F2;" >
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                            <a style=" color:#1877F2;" href="https://www.facebook.com/sai4ull">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
+                                            <a href="#" style="color:#FF0000;">
+                                                <i class="fab fa-youtube"></i>
+                                           </a>
+
+                                            <a href="#" style=" color:#4f5bd5;">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                            </li>
+                                         </ul>
+
+                                      </div>
                                       <div class="sec1">
                                         <ul id="navigation">
                                             <li><a href="index.php">Home</a></li>
@@ -69,8 +91,8 @@
                                                     <a href="#" class="header-btn">+8801841340819</a>
                                                  
                                             </li>
-                                            
-                                      </div>
+                                        </ul>
+                                     </div>
                                       <div class="sec2">
                                         <ul id="navigation"> 
                                             
