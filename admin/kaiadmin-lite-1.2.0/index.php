@@ -5,8 +5,6 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Lex</title>
-     <link rel="icon" href="assets/img/kaiadmin/favicon.ico" type="image/x-icon" />
-
     <!-- Fonts and icons -->
     <script src="assets/js/plugin/webfont/webfont.min.js"></script>
     <script>
@@ -147,14 +145,19 @@
                         <li class="nav-item">
                             <a data-bs-toggle="collapse" href="#forms">
                                 <i class="fas fa-pen-square"></i>
-                                <p>Forms</p>
+                                <p>Career</p>
                                 <span class="caret"></span>
                             </a>
                             <div class="collapse" id="forms">
                                 <ul class="nav nav-collapse">
                                     <li>
-                                        <a href="forms/forms.html">
-                                            <span class="sub-item">Basic Form</span>
+                                        <a href="./career/insert_career.php">
+                                            <span class="sub-item">Insert_Career</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./career/career_view.php">
+                                            <span class="sub-item">View_Career</span>
                                         </a>
                                     </li>
                                 </ul>
