@@ -11,39 +11,33 @@
                 </div>
                 <div class="row">
                     <!-- single Tem -->
+
+                    <?php 
+                       include("./db.php");
+                       $get_user = "select * from lawyer";
+                       $run_user = mysqli_query($conn, $get_user);
+                       
+                       while($row_user=mysqli_fetch_array($run_user)){
+                        $id = $row_user['id'];
+                        $name = $row_user['name'];
+                        $designation = $row_user['designation'];
+                        $description = $row_user['description'];
+                        $created_at = $row_user['created_at'];
+                        $image = $row_user['image'];
+                        ?>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="assets/img/gallery/team2.png" alt="">
+                                <img src='./admin/kaiadmin-lite-1.2.0/<?php  echo $image; ?>' alt='./admin/kaiadmin-lite-1.2.0/<?php  echo $image; ?>'>
                             </div>
                             <div class="team-caption">
-                                <h3><a href="#">Ethan Welch</a></h3>
-                                <span>Chir Lawyer</span>
+                                <h3><a href="LawyerDetails.php?<?php  echo $id; ?>"><?php  echo $name; ?></a></h3>
+                                <span><?php echo $designation ?></span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="assets/img/gallery/team3.png" alt="">
-                            </div>
-                            <div class="team-caption">
-                                <h3><a href="#">Trevor Stanley</a></h3>
-                                <span>Junior Lawyer</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
-                        <div class="single-team mb-30">
-                            <div class="team-img">
-                                <img src="assets/img/gallery/team1.png" alt="">
-                            </div>
-                            <div class="team-caption">
-                                <h3><a href="#">Allen Guzman</a></h3>
-                                <span>Senior Lawyer</span>
-                            </div>
-                        </div>
-                    </div>
+
+                           <?php  } ?>
                 </div>
             </div>
         </div>

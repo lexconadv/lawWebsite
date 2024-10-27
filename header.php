@@ -24,7 +24,7 @@
 </head>
 <body class="body-bg">
 <!--? Preloader Start -->
-<div id="preloader-active">
+<!-- <div id="preloader-active">
     <div class="preloader d-flex align-items-center justify-content-center">
         <div class="preloader-inner position-relative">
             <div class="preloader-circle"></div>
@@ -33,7 +33,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <header>
     <!--? Header Start -->
     <div class="header-area">
@@ -70,6 +70,9 @@
                                             <a href="#" style=" color:#4f5bd5;">
                                                 <i class="fab fa-instagram"></i>
                                             </a>
+                                            <a href="#" style=" color:#4f5bd5; width:40px;;">
+                                                <img src="./assets/img/logo/complete_legal_remedies_logo.jpeg" alt="" style=" color:#4f5bd5; width:100%;  border-radius: 50%;  margin-bottom: 10px;">
+                                            </a>
                                             </li>
                                          </ul>
 
@@ -82,13 +85,13 @@
                                             <li><a href="./services.php">Services</a></li>
                                             <li><a href="./location.php">Location</a></li>
                                             <li><a href="./career.php">Career</a></li>
-                                            <li><a href="blog.php">Blog</a></li>
-                                            <li>
-                                                    <a href="./index.php?#contact-form" class="header-btn">Book Now</a>
+                                            <li><a href="./blog.php">Blog</a></li>
+                                            <li style="color:white;">
+                                                    <a style="color:white;" href="./index.php?#contact-form" class="header-btn">Help Line</a>
                                             </li>
                                             <li>
                                                
-                                                    <a href="#" class="header-btn">+8801841340819</a>
+                                                    <a style="color:white;" href="#" class="header-btn">+8801841340819</a>
                                                  
                                             </li>
                                         </ul>
@@ -142,10 +145,10 @@
                                             </li>
                                             <li><a href="blog.html">Intellectual Property Law</a>
                                                 <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_details.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Element</a></li>
-                                                    <li><a href="cases_details.html">Case Details </a></li>
+                                                    <li><a href="./services.php?">Ip LItigation, Brand Protection &Enforcement</a></li>
+                                                    <li><a href="./services.php?">Patent Filling & Prosecution </a></li>
+                                                    <li><a href="./services.php?">Trademark Registration, Protection & Prosecution</a></li>
+                                                    <li><a href="./services.php?">Copyright Protection & Prosecution </a></li>
                                                 </ul>
                                             </li>
                                         </ul>

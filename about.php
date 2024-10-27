@@ -23,19 +23,18 @@ include("./header.php");
             <div class="row justify-content-center">
                 <div class="col-xl-4 col-lg-5 col-md-6 col-sm-10">
                     <div class="about-caption2 mb-50">
-                        <h3>Haw we deal Our Cases</h3>
+                        <h3>Welcome to Our Website of LexConsultium!</h3>
                         <div class="send-cv">
-                            <a href="#">youremail@colorlib.com</a>
+                            <a href="#">adv.badrul@gmail.com</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-6 col-sm-10">
                     <div class="about-caption mb-50">
-                        <h3>You can’t use up creativity. The more you use, the
-                            more you have in your signifant mind.</h3>
+                        <h3>Who we are?</h3>
                         <div class="experience">
                             <div class="year">
-                                <span>05</span>
+                                <span>About Us:</span>
                             </div>
                             <div class="year-details"><p>YEARS OF<br> DIGITAL EXPERIENCE</p></div>
                         </div>

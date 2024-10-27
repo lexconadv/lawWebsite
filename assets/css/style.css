@@ -2248,7 +2248,7 @@ to {
 }
 .slider-area {
     margin-top: -1px;
-    background-image: url(../img/hero/h1_hero.jpg);
+    background-image: url('../img/adv.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2562,8 +2562,9 @@ to {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 700px;
+    min-height: 700px;
     width: 50%;
+    min-height: 900px;
     padding: 120px 50px;
     display: flex;
     align-items: center;
